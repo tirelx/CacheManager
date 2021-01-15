@@ -7,10 +7,10 @@
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
 
     <PackageIcon>favicon-128.png</PackageIcon>
-    <PackageProjectUrl>http://cachemanager.michaco.net;https://github.com/tirelx/CacheManager</PackageProjectUrl>
+    <PackageProjectUrl>http://cachemanager.michaco.net</PackageProjectUrl>
     <PackageLicense>https://github.com/MichaCo/CacheManager/blob/master/LICENSE</PackageLicense>
     <RepositoryType>git</RepositoryType>
-    <RepositoryUrl>https://github.com/MichaCo/CacheManager</RepositoryUrl>
+    <RepositoryUrl>https://github.com/tirelx/CacheManager</RepositoryUrl>
 
     <Product>CacheManager.NET</Product>
 
