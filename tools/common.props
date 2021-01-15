@@ -1,14 +1,14 @@
 <Project>
-  <Import Project="version.props" />
+  <Import Project="version.props"/>
 
   <PropertyGroup>
     <Copyright>Copyright (c) 2017 MichaConrad</Copyright>
     <Authors>MichaConrad</Authors>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
 
-    <PackageIconUrl>http://cachemanager.michaco.net/favicon-128.png</PackageIconUrl>
+    <PackageIcon>favicon-128.png</PackageIcon>
     <PackageProjectUrl>http://cachemanager.michaco.net</PackageProjectUrl>
-    <PackageLicenseUrl>https://github.com/MichaCo/CacheManager/blob/master/LICENSE</PackageLicenseUrl>
+    <PackageLicense>https://github.com/MichaCo/CacheManager/blob/master/LICENSE</PackageLicense>
     <RepositoryType>git</RepositoryType>
     <RepositoryUrl>https://github.com/MichaCo/CacheManager</RepositoryUrl>
 
@@ -22,6 +22,9 @@
     <!-- doesn't work yet
     <CodeAnalysisRuleset>$(MSBuildThisFileDirectory)CodeAnalysis.ruleset</CodeAnalysisRuleset>-->
   </PropertyGroup>
+  <ItemGroup>
+    <None Include="..\..\tools\favicon-128.png" Pack="true" PackagePath=""/>
+  </ItemGroup>
   <!--<ItemGroup>
     <AdditionalFiles Include="$(MSBuildThisFileDirectory)stylecop.json" />
   </ItemGroup>
